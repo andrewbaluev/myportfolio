@@ -1,0 +1,21 @@
+@import "vendor/normalize/import-now";
+
+@import "variables";
+@import "mixins";
+@import "fonts";
+@import "ui";
+
+@import "base/burger";
+
+@import "blocks/header";
+@import "blocks/aboutme";
+@import "blocks/portfolio";
+@import "blocks/technology";
+@import "blocks/clients";
+@import "blocks/services";
+@import "blocks/testimonials";
+@import "blocks/contacts";
+@import "blocks/footer";
+
+
+

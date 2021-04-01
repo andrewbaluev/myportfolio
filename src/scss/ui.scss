@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 22px;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+
+    &._lock {
+        overflow: hidden;
+    }
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    flex: 0 0 auto;
+}
+
+main {
+    flex: 1 0 auto;
+    margin-top: 50px;
+}
+
+footer {
+    flex: 0 0 auto;
+    padding: 40px 0;
+}
+
+section {
+    padding: 60px 0;
+    scroll-margin-top: 40px;
+    border-bottom: 1px solid rgba(#ccc, 0.4);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: var(--color-title);
+}
+
+a {
+    color: var(--color-link);
+    text-decoration: none;
+
+    &:hover {
+        cursor: pointer;
+        color: var(--color-link);
+        text-decoration: none;
+    }
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.section-header {
+    margin-bottom: 40px;
+
+    h2 {
+        margin-bottom: 15px;
+    }
+}
+
+.tac {
+    text-align: center;
+}

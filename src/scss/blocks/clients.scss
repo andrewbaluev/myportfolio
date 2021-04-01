@@ -1,0 +1,22 @@
+.clients {
+    &-inner {
+        display: flex;
+        &__item {
+            height: 80px;
+        }
+        &__link {
+            width: 100%;
+            height: 100%;
+            display: block;
+            & svg {
+                width: 100%;
+                height: 100%;
+                fill: #bdbdbd;
+                transition: fill .3s ease;
+            }
+            &:hover svg {
+                fill: var(--color-text);
+            }
+        }
+    }
+}

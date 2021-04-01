@@ -1,0 +1,13 @@
+:root {
+    --color-bg: #f1f2f6;
+    --color-text: #2f3542;
+    --color-title: #000000;
+    --color-link: #6c7a89;
+}
+
+:root[theme="dark"] {
+    --color-bg: #57606f;
+    --color-text: #ced6e0;
+    --color-title: #ffffff;
+    --color-link: #eeeeee;
+}

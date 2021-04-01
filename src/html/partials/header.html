@@ -1,0 +1,44 @@
+<header id="header" class="header">
+  <div class="container">
+    <div class="header-inner">
+      <a class="header-logo" href="index.html">
+        <h1>MyResume.</h1>
+      </a>
+
+      <nav class="header-nav">
+        <ul class="nav-menu">
+          <li class="menu-item">
+            <a class="menu-item__link" data-goto="#aboutme" href="#">Обо мне</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-item__link" data-goto="#portfolio" href="#">Портфолио</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-item__link" data-goto="#services" href="#">Навыки</a>
+          </li>
+        </ul>
+
+        <button data-burger class="menu-icon__close" aria-label="Закрыть меню">
+          <svg>
+            <use href='./svg/sprite.svg#close'></use>
+          </svg>
+        </button>
+      </nav>
+
+      <div class="header-btns">
+        <button id="toggle-theme" class="darktheme" aria-label="Тёмная тема">
+          <svg>
+            <use href='./svg/sprite.svg#darktheme'></use>
+          </svg>
+        </button>
+
+        <button data-burger class="menu-icon__open" aria-label="Открыть меню">
+          <svg>
+            <use href='./svg/sprite.svg#menu'></use>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</header>
